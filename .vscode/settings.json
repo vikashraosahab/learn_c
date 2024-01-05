@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "workbench.reduceMotion": "on",
+    "workbench.quickOpen.preserveInput": true,
+    "breadcrumbs.symbolPath": "on",
+    "window.density.editorTabHeight": "compact"
+}
