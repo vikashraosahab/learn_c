@@ -12,19 +12,18 @@ int main (void) {
     scanf ("%d",&n);
 
     // OUTER LOOP
-    int c = 65;
     for (i = 1; i <= n; i++) {
         int ch = 65;
-        for (j = 1; j <= n - i; j++) printf (" * ");
+        for (j = 1; j <= n - i; j++) printf ("#");
         for (k = 1; k <= i; k++) {
             printf ("%c",ch);
             ch++;
         }
         for (l = 1; l <= i - 1; l++) {
-            printf ("%d",c);
-            c--;
+            printf ("*");
+            //c--;
         }
-        c = 65 + i;
+        //c = 65 + i;
         printf ("\n");
     }
     return 0;
